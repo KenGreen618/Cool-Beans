@@ -1,19 +1,52 @@
 * {
     font-family: Helvetica, Arial, sans-serif;
   }
-   
-   
-  h1 {
-    color: SeaGreen;
-  }
-   
-   
-  p, 
-  li {
-    font-size: 18px;
-  }
-   
-   
-  a {
-    text-decoration: none;
-  }
+body{
+  width: 90%;
+  margin: 1%;
+}
+
+    /* HEADER STYLING */
+header {
+  background: #333;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+h1 {
+  color: SeaGreen;
+}
+
+nav{
+  margin: 0;
+  padding: 20px 0;
+}
+nav li {
+  color: whitesmoke;
+  display: inline-block;
+  text-align: center;
+  width: 300px;
+}
+
+    /* MAIN STYLING */
+main {
+  text-align: center;
+  position: relative;
+  top: 200px;
+
+}
+  
+
+p, 
+li {
+  font-size: 18px;
+}
+
+section p {
+  font-size: 30px;
+}
+  
+a {
+  text-decoration: none;
+}
