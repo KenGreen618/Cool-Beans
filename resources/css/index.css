@@ -1,52 +1,55 @@
 * {
     font-family: Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
   }
-body{
-  width: 90%;
-  margin: 1%;
-}
 
     /* HEADER STYLING */
-header {
-  background: #333;
-  position: fixed;
-  width: 100%;
-  z-index: 1;
-}
-
-h1 {
-  color: SeaGreen;
-}
-
-nav{
-  margin: 0;
-  padding: 20px 0;
-}
-nav li {
-  color: whitesmoke;
-  display: inline-block;
+.title{
+  font-size: 100px;
   text-align: center;
-  width: 300px;
+}
+
+    /* NAV BAR STYLING  */
+.navbar {
+  background: rgb(129, 35, 35);
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.navbar_container {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  z-index: 1;
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+.navbar_menu{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+}
+
+.navbar_menu li a{
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  height: 100%;
 }
 
     /* MAIN STYLING */
-main {
-  text-align: center;
-  position: relative;
-  top: 200px;
-
-}
-  
-
-p, 
-li {
-  font-size: 18px;
-}
-
-section p {
-  font-size: 30px;
-}
-  
-a {
-  text-decoration: none;
-}
